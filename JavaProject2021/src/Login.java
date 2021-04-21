@@ -24,7 +24,7 @@ public class Login extends JFrame {
                 JPanel test2 = new JPanel(new GridLayout(2,1));
                 ImageIcon img = new ImageIcon("img/symbol.png");
                 JLabel logo = new JLabel(img);
-                JButton bt1 = new JButton("로그인");
+                //JButton bt1 = new JButton("로그인");
         public Login() {
 
             super("로그인 창!");
@@ -44,7 +44,7 @@ public class Login extends JFrame {
             idText.setBounds(130,50,130,25);
             pwLabel.setBounds(50,90,100,25);
             pwText.setBounds(130,90,130,25);
-            bt1.setBounds(270,120,70,30);
+            loginBtn.setBounds(270,120,70,30);
 
 //            idLabel.setBounds(13,50,100,25);        // 오른쪽 로그인쓸거면
 //            idText.setBounds(110,50,150,25);
@@ -57,21 +57,6 @@ public class Login extends JFrame {
             t1.add(idText);
             t1.add(pwLabel);
             t1.add(pwText);
-
-//            loginPanel.add(trash);
-//            loginPanel.add(trash);
-//            loginPanel.add(trash);
-//            loginPanel.add(idLabel);
-//            loginPanel.add(idText);
-//            loginPanel.add(trash);
-//            loginPanel.add(pwLabel);
-//            loginPanel.add(pwText);
-//            loginPanel.add(trash);
-
-
-
-
-            test1.add(loginBtn,BorderLayout.SOUTH);
 
 
 //라벨 가운데 정렬
